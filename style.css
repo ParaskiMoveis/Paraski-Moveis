@@ -1,13 +1,13 @@
-/* Variáveis de Cores (Baseadas na Logo) */
+
 :root {
-    --amarelo-paraski: #F4AE1A; /* Cor dourada/amarela da logo */
+    --amarelo-paraski: #F4AE1A; 
     --preto-fundo: #050505;
     --preto-secao: #121212;
     --texto-claro: #F5F5F5;
     --texto-escuro: #333333;
 }
 
-/* Reset Básico */
+
 * {
     margin: 0;
     padding: 0;
@@ -28,7 +28,7 @@ body {
     margin: 0 auto;
 }
 
-/* Tipografia e Utilidades */
+
 h1, h2, h3 {
     font-weight: 700;
 }
@@ -64,7 +64,7 @@ h1, h2, h3 {
     background-color: #d69412;
 }
 
-/* Header */
+
 header {
     background-color: #000000;
     padding: 15px 0;
@@ -117,7 +117,7 @@ header {
     transition: 0.3s;
 }
 
-/* Hero Section */
+
 .hero {
     height: 100vh;
     display: flex;
@@ -139,7 +139,7 @@ header {
     margin: 0 auto;
 }
 
-/* Seções Gerais */
+
 section {
     padding: 80px 0;
 }
@@ -148,13 +148,13 @@ section:nth-child(even) {
     background-color: var(--preto-secao);
 }
 
-/* Sobre Nós */
+
 .sobre-text p {
     margin-bottom: 15px;
     color: #bbb;
 }
 
-/* Serviços */
+
 .servicos h2 {
     text-align: center;
 }
@@ -186,7 +186,7 @@ section:nth-child(even) {
     font-size: 0.9rem;
 }
 
-/* Portfólio */
+
 .portfolio h2 {
     text-align: center;
 }
@@ -234,7 +234,7 @@ section:nth-child(even) {
     font-size: 1.2rem;
 }
 
-/* Contato */
+
 .contato-container {
     display: flex;
     gap: 40px;
@@ -257,7 +257,7 @@ section:nth-child(even) {
     min-width: 300px;
 }
 
-/* Footer */
+
 footer {
     background-color: #000;
     text-align: center;
@@ -267,7 +267,7 @@ footer {
     border-top: 1px solid #222;
 }
 
-/* Responsividade (Celulares) */
+
 @media (max-width: 768px) {
     .nav-links {
         display: none;
